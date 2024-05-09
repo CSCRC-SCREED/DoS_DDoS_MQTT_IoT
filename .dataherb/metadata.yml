@@ -1,0 +1,47 @@
+name: DoS-DDoS-MQTT-IoT_Dataset
+description: Adversaries may exploit a range of vulnerabilities in Internet of Things (IoT) environments. These vulnerabilities are typically exploited to carry out attacks, such as denial-of-service (DoS) attacks, either against the IoT devices themselves, or using the devices to perform the attacks. These attacks are often successful due to the nature of the protocols used in the IoT. One popular protocol used for machine-to-machine IoT communications is the Message Queueing Telemetry Protocol (MQTT). Countermeasures for attacks against MQTT include testing defenses with existing datasets. However, there is a lack of real-world test datasets in this area. For this reason, this paper introduces a DoS/DDoS-MQTT-IoT dataset—that contains various DoS/DDoS attack scenarios using MQTT traffic—to help develop and test countermeasures against such attacks. To this end, a physical IoT testbed was constructed and a large volume of IoT data was generated that included standard MQTT traffic as well as 10 DoS scenarios. The usability of the dataset has been evaluated via machine learning.
+contributors:
+- name: Alaa Alatram, Leslie F. Sikos, Mike Johnstone, Patryk Szewczyk, James Jin Kang
+data:
+- name: DoS/DDoS-MQTT-IoT
+  path: DoS-DDoS-MQTT-IoT_Dataset\Basic Connect Flooding\DoS\CSV Files
+  format: Microsoft Excel Spreadsheet
+  md5: 7C480670939258C96CAAA92C6A03A2B3 
+  size: 41.36 GB
+  fields:
+  - name: No.
+  - name: Message Type
+  - name: QoS Level
+  - name: QoS Level
+  - name: Requested QoS
+  - name: Epoch Time
+  - name: Protocol
+  - name: Source
+  - name: Frame length on the wire
+  - name: Time delta from previous displayed frame
+  - name: Time since reference or first frame
+  - name: Frame length on the wire
+  - name: Stream index
+  - name: iRTT
+  - name: Time since first frame in this TCP stream
+  - name: TCP Segment Len
+  - name: Calculated window size
+  - name: Syn
+  - name: Reset
+  - name: Acknowledgment
+  - name: Clean Session Flag
+  - name: Keep Alive
+  - name: User Name Lengt
+  - name: Password Length
+  - name: Retain
+  - name: Clean Session Flag
+  - name: Will Retain
+  - name: Will Flag
+  - name: Will Message Length
+  - name: Will Topic Length
+  - name: Topic Length
+  - name: Msg Len
+  - name: Info
+license:
+- name: Creative Commons Attribution 4.0 License/Open Access
+
