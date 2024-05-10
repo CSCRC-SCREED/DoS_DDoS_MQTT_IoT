@@ -6,7 +6,9 @@ data:
 - name: DoS/DDoS-MQTT-IoT
   path: DoS-DDoS-MQTT-IoT_Dataset\Basic Connect Flooding\DoS\CSV Files
   format: Microsoft Excel Spreadsheet
-  md5: 7C480670939258C96CAAA92C6A03A2B3 
+  md5: 7C480670939258C96CAAA92C6A03A2B3
+  md5: 8FAB1867CED2ACC79BD8BDDAE2F1282B (DoS_DDoS_MQTT_IoT/dataset/Basic Connect Flooding/DDoS/CSV Files
+/BF1_DDoS_AD_11_12.zip)
   size: 41.36 GB
   fields:
   - name: No.
